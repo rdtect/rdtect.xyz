@@ -1,1 +1,1 @@
-*
+Firstly, a svelte kit project acting as a placeholder for all upcoming projects, blogs and my portfolio. Right now just an implementation.
