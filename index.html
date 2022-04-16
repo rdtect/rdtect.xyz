@@ -1,48 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <!-- CSS and styles -->
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css"
+        integrity="sha512-xiunq9hpKsIcz42zt0o2vCo34xV0j6Ny8hgEylN3XBglZDtTZ2nwnqF/Z/TTCc18sGdvCjbFInNd++6q3J0N6g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <!--  -->
+    <!-- JS and alpine JS -->
+    <script src="//unpkg.com/alpinejs" defer></script>
     <title>rdtect Links</title>
-<!-- aria links, twitter cards, favicon and other metadata to be added later on -->
-<!-- script tags for linking and also using alpinejs instead of jquery -->
-<!-- also should I be fetching data from an API? ... maybe a JSON -->
-<!-- google analytics  of every link
+    <!-- aria links, twitter cards, favicon and other metadata to be added later on -->
+    <!-- script tags for linking and also using alpinejs instead of jquery -->
+    <!-- also should I be fetching data from an API? ... maybe a JSON -->
+    <!-- google analytics  of every link
 and 3D stuff in HTML only-->
 </head>
+
 <body>
-    <h1>Links for rdtect</h1>
-    <p>rdtect = <em>R</em>ick <em>D</em>e + Archi<em> tect</em>. 
+    <div class="container">
+        <h1>Links for rdtect</h1>
+        <p>rdtect = <em>R</em>ick <em>D</em>e + Archi<em> tect</em>.
         </p>
         <br>
         <p>Architect. 🎔 DAT [Design Art Tech] everyday. </p>
+        <!doctype html>
+        <svg viewBox="87.35 48.84 273.461 213.379" width="273.461" height="213.379">
+            <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"
+                d="M 200 175 C 200 175 200 175 200 175 C 200 175 200 175 200 175 C 194.155 165.78 187.427 164.633 180.978 162.483 C 179.668 162.047 173.712 161.051 173.712 159.841 C 173.712 157.765 180.174 157.931 181.638 157.199 C 182.519 156.759 185.265 155.878 184.28 155.878 C 181.858 155.878 179.436 155.878 177.015 155.878 C 175.694 155.878 173.052 154.557 173.052 155.878 C 173.052 159.04 175.121 161.574 170.41 163.144 C 165.807 164.678 159.603 161.893 155.218 161.162 C 146.113 159.645 137.048 158.188 128.137 155.218 C 126.011 154.509 113.796 149.084 111.625 151.255 C 110.397 152.483 116.834 158.03 117.569 158.52 C 123.08 162.194 133.595 168.092 140.026 163.805 C 144.926 160.538 149.901 157.926 152.576 152.576 C 154.922 147.883 142.431 150.832 141.347 151.915 C 140.214 153.049 144.368 153.236 145.971 153.236 C 148.075 153.236 152.797 150.152 153.897 147.952 C 156.676 142.394 150.215 137.666 146.631 134.082 C 136.951 124.401 122.419 117.737 109.643 112.946 C 104.598 111.054 99.507 109.684 94.452 107.662 C 92.25 106.781 85.475 105.02 87.847 105.02 C 97.811 105.02 119.338 109.833 122.853 95.773 C 124.721 88.301 118.489 84.497 113.606 81.242 C 111.857 80.076 109.967 79.422 108.322 78.6 C 107.7 78.288 105.645 77.939 106.341 77.939 C 118.42 77.939 130.018 87.847 142.008 87.847 C 146.753 87.847 147.83 86.11 149.934 81.902 C 150.63 80.51 149.273 75.722 149.273 77.279 C 149.273 83.121 160.5 91.01 165.126 90.489 C 183.828 88.381 198.596 98.171 211.361 89.168 C 212.868 88.105 218.159 81.425 219.287 79.92 C 230.171 65.408 197.703 63.835 204.095 82.563 C 210.074 100.081 242.786 81.558 251.651 84.544 C 255.078 85.698 258.514 81.388 260.238 77.939 C 264.436 69.543 256.866 66.016 250.33 62.748 C 248.654 61.909 246.373 60.766 244.386 60.766 C 243.263 60.766 239.961 61.427 241.083 61.427 C 248.378 61.427 257.001 58.091 263.54 54.822 C 265.87 53.657 268.018 51.922 270.145 50.859 C 270.225 50.819 272.127 48.524 272.127 48.877 C 272.127 53.526 271.283 60.301 274.108 64.069 C 277.748 68.921 284.396 71.264 289.96 72.655 C 291.751 73.103 294.029 73.316 295.905 73.316 C 297.006 73.316 300.308 73.316 299.207 73.316 C 296.828 73.316 286.031 78.006 287.979 81.902 C 292.22 90.386 313.703 89.307 321.004 87.847 C 323.949 87.258 330.585 85.213 328.27 80.581 C 321.617 67.277 306.317 75.92 303.831 85.865 C 302.293 92.018 310.51 99.724 315.059 102.378 C 316.76 103.37 318.582 104.139 320.343 105.02 C 321.492 105.594 324.93 107.001 323.646 107.001 C 316.752 107.001 297.406 109.284 293.923 116.248 C 292.249 119.597 299.988 121.16 301.849 121.532 C 306.847 122.532 325.314 123.48 328.27 117.569 C 331.169 111.77 322.248 112.285 318.362 112.285 C 311.406 112.285 296.643 114.138 292.602 120.872 C 288.233 128.154 292.351 133.989 294.584 140.687 C 295.015 141.981 298.056 144.31 297.226 145.971 C 295.37 149.682 286.66 150.689 282.695 151.255 C 273.249 152.604 258.1 156.287 249.67 160.502 C 247.956 161.359 258.377 148.79 259.577 143.989 C 261.623 135.805 249.078 153.04 243.725 151.255 C 239.551 149.864 237.109 136.41 235.139 139.366 C 228.585 149.197 245.053 161.149 240.423 170.41 C 239.43 172.395 225.445 179.209 222.589 176.354 C 221.112 174.877 220.608 168.321 220.608 170.41 C 220.608 171.143 219.947 175.033 219.947 175.033 C 219.948 177.897 219.917 175.633 221.929 179.657 C 222.071 179.941 225.474 186.262 225.231 186.262 C 223.49 186.262 225.231 183.62 225.231 183.62 C 228.342 183.62 226.552 189.24 226.552 198.811 C 226.552 213.228 223.25 228.511 223.25 240.423 C 223.25 242.099 221.268 237.476 221.268 235.799 C 221.268 231.739 221.624 227.112 222.589 223.25 C 224.75 214.607 223.363 201.905 221.268 193.527 C 218.948 184.245 219.947 177.86 219.947 189.564 C 219.157 189.169 215.984 184.28 215.984 184.28 Z">
+            </path>
+
+
+            <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"
+                d="M 224.571 231.176 C 219.84 231.176 214.933 232.497 210.04 232.497 C 201.507 232.497 185.518 235.427 195.509 240.423 C 198.581 241.959 206.631 240.423 210.04 240.423 C 222.292 240.423 234.449 239.102 246.367 239.102 C 248.616 239.102 250.249 239.129 252.312 238.441 C 258.789 236.282 261.333 239.537 257.596 235.799 C 256.964 235.167 255.11 234.478 253.633 234.478 C 252.247 234.478 250.496 233.529 249.009 233.157 C 246.742 232.59 244.051 233.542 241.744 233.157 C 237.189 232.398 233.185 233.157 228.534 233.157 C 219.879 233.157 211.352 235.139 202.774 235.139">
+                Hello Worl
+            </path>
+
+
+
+
+
+        </svg>
 
         <h3>Architecture | Art | Design | Tech</h3>
         </h3>
-    <h2>Social Media</h2>
-    <ul>
-        <li>📸Instagram</li>
-        <li>🐦Twitter</li>
-        <li>Facebook</li>
-        <li>Linked In</li>
-        <li>Tumbler</li>
-    </ul>
-    <h2>NFTs</h2>
-    <ul>
-        <li>Instagram</li>
-        <li>Twitter</li>
-        <li>Facebook</li>
-        <li>Linked In</li>
-        <li>Tumbler</li>
-    </ul>
-    <h2>CV / Portfolio</h2>
-    <ul>
-        <li>Blogs</li>
-        <li>Github</li>
-        <li>Dribble</li>
-        <li>Artstation</li>
-        <li>Studio ArcX</li>
+        <div class="row">
+            <div class="column">
+
+                <h3>Social Media</h3>
+                <ul>
+                    <li>📸Instagram</li>
+                    <li>🐦Twitter</li>
+                    <li>Facebook</li>
+                    <li>Linked In</li>
+                    <li>Tumbler</li>
+                </ul>
+            </div>
+            <div class="column">
+
+                <h3>NFTs</h3>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Facebook</li>
+                    <li>Linked In</li>
+                    <li>Tumbler</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>CV / Portfolio</h3>
+                <ul>
+
+                    <li>Blogs</li>
+                    <li>Github</li>
+                    <li>Dribble</li>
+                    <li>Artstation</li>
+                    <li>Studio ArcX</li>
+            </div>
 </body>
+
+</div>
+</div>
+
 </html>
