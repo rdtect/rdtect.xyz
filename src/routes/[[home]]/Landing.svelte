@@ -21,9 +21,9 @@
 <style>
     section{
         background-image: url(/src/lib/images/landing.webp);
-        background-size: auto;
+        background-size: cover;
         background-position: 0%;
-        height: 50vh;
+        height: 100vh;
         width: 100%;
     }
   h1 {

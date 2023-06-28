@@ -11,38 +11,30 @@
 		</a> -->
   </div>
 
-  <nav>
-    <!-- <svg viewBox="0 0 2 3" aria-hidden="true">
+ <nav>
+	<!-- <svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg> -->
-    <ul>
-      <li aria-current={$page.url.pathname === "/" ? "page" : undefined}>
-        <a href="/">Home</a>
-      </li>
+	<ul>
+		<li aria-current={$page.url.pathname === "/" ? "page" : undefined}>
+			<a href="/">Home</a>
+		</li>
 
-      <li aria-current={$page.url.pathname === "/about" ? "page" : undefined}>
-        <a href="/about">About</a>
-      </li>
+		<li aria-current={$page.url.pathname === "/about" ? "page" : undefined}>
+			<a href="/about">About</a>
+		</li>
 
-      <li
-        aria-current={$page.url.pathname.startsWith("/sverdle")
-          ? "page"
-          : undefined}
-      >
-        <a href="/projects">Projects</a>
-      </li>
-      <li
-        aria-current={$page.url.pathname.startsWith("/sverdle")
-          ? "page"
-          : undefined}
-      >
-        <a href="/blog">Blog</a>
-      </li>
-    </ul>
-    <!-- <svg viewBox="0 0 2 3" aria-hidden="true">
+		<li aria-current={$page.url.pathname.startsWith("/projects") ? "page" : undefined}>
+			<a href="/projects">Projects</a>
+		</li>
+		<li aria-current={$page.url.pathname.startsWith("/blog") ? "page" : undefined}>
+			<a href="/blog">Blog</a>
+		</li>
+	</ul>
+	<!-- <svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
 		</svg> -->
-  </nav>
+</nav>
 
   <div class="corner">
     <!-- <a href="https://github.com/sveltejs/kit">
@@ -96,7 +88,7 @@
   ul {
     position: relative;
     padding-left: 2em;
-	padding-right:2em;
+	// log.debug("No results found: " + e);
     margin: 0;
     height: 3em;
     display: flex;
@@ -124,19 +116,33 @@
     border-top: var(--size) solid var(--color-theme-1);
   }
 
-  nav a {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    padding: 0 0.5rem;
-    color: var(--color-text);
-    font-weight: 700;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    text-decoration: none;
-    transition: color 0.2s linear;
-  }
+  /* Make sure the nav links are centered vertically */
+nav > a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+/* Add some padding to the links */
+nav > a {
+  padding: 0 0.5rem;
+}
+
+/* Add some styles to the links */
+nav > a {
+  color: var(--color-text);
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: color 0.2s linear;
+}
+
+/* Add hover styles to the links */
+nav > a:hover {
+  color: var(--color-link);
+}
 
   a:hover {
     color: var(--color-theme-1);

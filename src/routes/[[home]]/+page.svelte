@@ -10,7 +10,11 @@
 <html lang="svelte">
   
     <Landing />
-  
+  <section>
+    <div>
+      
+    </div>
+  </section>
 </html>
 
 <style>
@@ -20,5 +24,6 @@
     justify-content: center;
     align-items: center;
     flex: 0.6;
+    
   }
 </style>

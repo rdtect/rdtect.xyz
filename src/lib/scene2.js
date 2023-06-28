@@ -46,3 +46,7 @@ export const createScene2 = (el) => {
   animate();
 };
 window.addEventListener("resize", resize);
+
+function compress(){
+      
+}
