@@ -9,7 +9,6 @@
 :root {
   --theme-rounded-base: 10px;
   --theme-rounded-container: 2px;
-  
 }
 
 html,
@@ -17,6 +16,8 @@ body {
   @apply h-full;
 }
 body {
+  min-height: 100vh;
+  margin: 0;
   background-image: radial-gradient(
       at 0% 0%,
       rgba(var(--color-secondary-500) / 0.33) 0px,
