@@ -6,7 +6,7 @@
   import "@skeletonlabs/skeleton/styles/skeleton.css";
 </script>
 
-<div class="container mx-auto flex-col justify-between variant-ghost-secondary">
+<div class="container mx-auto flex-col justify-between variant-ghost-secondary min-h-screen">
   <header class="p-10">
     <Header />
     <hr />
@@ -14,7 +14,7 @@
   <main class="min-h-fit">
     <slot />
   </main>
-
+</div>
   <footer class=" inset-x-0 bottom-0 text-xs">
     <div class="p-4 text-center text-neutral-700 dark:text-neutral-200">
       © 2023 Copyright:
@@ -24,7 +24,7 @@
       >
     </div>
   </footer>
-</div>
+
 
 <style lang="postcss">
 </style>
