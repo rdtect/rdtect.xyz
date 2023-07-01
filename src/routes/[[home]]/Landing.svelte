@@ -21,18 +21,19 @@
               class="block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px]"
             >
               <h1
-                class="mt-2 mb-6 text-4xl font-medium tracking-tight md:text-5xl xl:text-6xl"
+                class="mt-2 mb-6 text-4xl font-medium tracking-tight md:text-5xl xl:text-6xl text-white"
               >
                 {content.home.messageHeader}
               </h1>
-              
-              <p class="text-sm mb-16 font-medium italic">
+
+              <p class="text-sm mb-16 font-medium italic text.white">
                 {content.home.messageContent}
               </p>
-              <a href="/" class="btn variant-outline-primary" data-sveltekit-preload-data="hover">Resumé</a>
-          
-               
-            
+              <a
+                href="/"
+                class="btn variant-outline-primary"
+                data-sveltekit-preload-data="hover">Resumé</a
+              >
             </div>
           </div>
           <div class="md:mb-12 lg:mb-0">

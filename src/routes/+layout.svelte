@@ -1,16 +1,16 @@
 <script>
-  import Header from "$lib/Header.svelte";
+  import Header from "$lib/components/Header.svelte";
   //Selected Skeleton Theme
   import "@skeletonlabs/skeleton/themes/theme-skeleton.css";
   // This contains the bulk of Skeletons required styles:
   import "@skeletonlabs/skeleton/styles/skeleton.css";
 </script>
 
-<header class="p-10">
-  <!-- <Header></Header> -->
-  <hr />
-</header>
-<div class="container mx-auto flex-col justify-between">
+<div class="container mx-auto flex-col justify-between variant-ghost-secondary">
+  <header class="p-10">
+    <Header />
+    <hr />
+  </header>
   <main class="min-h-fit">
     <slot />
   </main>

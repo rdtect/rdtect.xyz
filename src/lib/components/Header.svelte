@@ -2,29 +2,34 @@
   import { page } from "$app/stores";
   import logo from "$lib/images/svelte-logo.svg";
   import github from "$lib/images/github.svg";
+  import rdtectLogo from "$lib/images/rdtect.svg";
 </script>
 
-<header>
-  <div class="corner">
-    <!-- <a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a> -->
+<header class="flex justify-between">
+  <div class="logo">
+    <a href="/">
+      <img class="h-7" src={rdtectLogo} alt="" />
+    </a>
   </div>
 
   <nav>
-    <!-- <svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg> -->
-    <ul>
-      <li aria-current={$page.url.pathname === "/" ? "page" : undefined}>
+    <ul class="flex justify-evenly">
+      <!-- <li
+        class=" px-4"
+        aria-current={$page.url.pathname === "/" ? "page" : undefined}
+      >
         <a href="/">Home</a>
-      </li>
+      </li> -->
 
-      <li aria-current={$page.url.pathname === "/about" ? "page" : undefined}>
+      <li
+        class=" px-4"
+        aria-current={$page.url.pathname === "/about" ? "page" : undefined}
+      >
         <a href="/about">About</a>
       </li>
 
       <li
+        class=" px-4"
         aria-current={$page.url.pathname.startsWith("/projects")
           ? "page"
           : undefined}
@@ -32,6 +37,7 @@
         <a href="/projects">Projects</a>
       </li>
       <li
+        class=" px-4"
         aria-current={$page.url.pathname.startsWith("/blog")
           ? "page"
           : undefined}
@@ -39,8 +45,5 @@
         <a href="/blog">Blog</a>
       </li>
     </ul>
-    <!-- <svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg> -->
   </nav>
 </header>

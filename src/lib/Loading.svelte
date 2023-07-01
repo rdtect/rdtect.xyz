@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	import { typewriter } from '$lib/effects/transition.js';
+	import { typewriter } from '$lib/utils/transition.js';
 	import { messages } from './data/loadingMessages.js';
 
 	let i = -1;
