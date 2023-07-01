@@ -1,12 +1,12 @@
 <script>
-	import { createScene2 } from '../../lib/scene2.js';
-	import {onMount} from 'svelte'
-	let el2;
+	// import { createScene2 } from '../../lib/scene2.js';
+	// import {onMount} from 'svelte'
+	// let el2;
 
-		onMount(()=>{
+	// 	onMount(()=>{
 		
-		createScene2(el2)
-	})
+	// 	createScene2(el2)
+	// })
 </script>
 
 
@@ -17,7 +17,7 @@
 
 <div class="text-column">
 	<h1>About this app</h1>
-<canvas id ="el2" bind:this={el2}  />
+	<!-- <canvas id ="el2" bind:this={el2}  /> -->
 	<p>
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
 		following into your command line and following the prompts:
