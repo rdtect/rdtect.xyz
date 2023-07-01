@@ -1,49 +1,31 @@
 <script>
-	import "../app.postcss";
-    import Header from '$lib/Header.svelte';
-    import './styles.css';
-	
-// Your selected Skeleton theme:
-import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
-
-// This contains the bulk of Skeletons required styles:
-import '@skeletonlabs/skeleton/styles/skeleton.css';
-
-// Finally, your application's global stylesheet (sometimes labeled 'app.css')
-import '../app.postcss';
-						
+  import Header from "$lib/Header.svelte";
+  //Selected Skeleton Theme
+  import "@skeletonlabs/skeleton/themes/theme-skeleton.css";
+  // This contains the bulk of Skeletons required styles:
+  import "@skeletonlabs/skeleton/styles/skeleton.css";
 </script>
 
-<div class="app">
-	<Header></Header>
+<header>
+  <!-- <Header></Header> -->
+</header>
+<div class="min-h-screen container mx-auto flex-col ">
+  <main class="  min-h-">
+    <slot />
+  </main>
 
-	<main>
-		<slot></slot>
-	</main>
-
-	<footer>
-		<p>(c)Rick 'rdtect' De, 2023</p>
-	</footer>
+  <footer
+    class=" absolute inset-x-0 bottom-0 text-xs"
+  >
+    <div class="p-4 text-center text-neutral-700 dark:text-neutral-200">
+      © 2023 Copyright:
+      <a
+        class="text-neutral-800 dark:text-neutral-400"
+        href="https://rdtect.xyz/">Rick 'rdtect' De</a
+      >
+    </div>
+  </footer>
 </div>
 
-<style>
-
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	/* footer a {
-		font-weight: bold;
-	} */
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
+<style lang="postcss">
 </style>

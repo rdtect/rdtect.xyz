@@ -1,5 +1,6 @@
 <script>
   import Landing from "./Landing.svelte";
+  import { Avatar } from "@skeletonlabs/skeleton";
 </script>
 
 <svelte:head>
@@ -8,22 +9,17 @@
 </svelte:head>
 
 <html lang="svelte">
-  
-    <Landing />
+  <Landing />
   <section>
-    <div>
-      
-    </div>
+    <Avatar src="https://i.pravatar.cc/" />
+  </section>
+  <section>
+    <a class="btn variant-filled-primary" href="https://kit.svelte.dev/"
+      >SvelteKit</a
+    >
+    <a class="btn variant-filled-secondary" href="https://tailwindcss.com/"
+      >Tailwind</a
+    >
+    <a class="btn variant-filled-tertiary" href="https://github.com/">GitHub</a>
   </section>
 </html>
-
-<style>
-  section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 0.6;
-    
-  }
-</style>
