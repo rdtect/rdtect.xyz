@@ -1,8 +1,8 @@
 {
     "website": "rdtect",
-    "domain" : "rdtect.xyz",
-    "home" : {
-        "messageHeader":"Hi, I am Rick [rdtect]. ",
-        "messageContent":"I design stunning digital products and 3D experiences "
+    "domain": "rdtect.xyz",
+    "home": {
+        "messageHeader": "Designing Awesomeness!",
+        "messageContent": "Hi. I am Rick [rdtect] and I design and create physical environments, digital products and stunning 3D experiences for Architecture, Product Design[UI-UX] and MetaVERSEs!  "
     }
-    }
+}

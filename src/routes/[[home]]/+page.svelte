@@ -11,9 +11,10 @@
 
 <html lang="svelte">
   <section>
+       <Landing />
+       <hr>
     <Soon/>
-
-    <Landing />
+ 
    
   </section>
 </html>
