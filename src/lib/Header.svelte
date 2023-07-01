@@ -88,8 +88,7 @@
   ul {
     position: relative;
     padding-left: 2em;
-	// log.debug("No results found: " + e);
-    margin: 0;
+	  margin: 0;
     height: 3em;
     display: flex;
     justify-content: center;
