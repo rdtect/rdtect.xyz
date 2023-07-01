@@ -10,6 +10,14 @@ Things might break. As the svelte community and Rich puts it; here be Dragons.
 
 ## Latest  
 
-Will use the latest packages.
+- Will use the latest packages.
 
-## Am learing ThreeJs and Threlte simulatanously
+- Am learing ThreeJs and Threlte simulatanously
+
+- Storybook for UI components
+
+- Skeleton UI based on Tailwind based on PostCSS
+
+- CMS would be required. 
+
+- database . if reqd, maybe use vercels?
