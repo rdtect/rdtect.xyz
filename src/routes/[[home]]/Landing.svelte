@@ -1,6 +1,6 @@
 <script>
   import landing from "$lib/images/landing.webp";
-  import content from "$lib/content.json";
+  import content from "$lib/data/content.json";
 </script>
 
 <section>
