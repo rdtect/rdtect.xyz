@@ -8,11 +8,12 @@ This is an experiment, to learn and have fun with Svelte, but also, get the webs
 
 Things might break. As the svelte community and Rich puts it; here be Dragons.
 
+![Showing Single Page WireFrame Layout](./static/diagram.excalidraw.png)
 ## Latest  
 
 - Will use the latest packages.
 
-- Am learing ThreeJs and Threlte simulatanously
+- Am learning ThreeJs and Threlte simultaneously
 
 - Storybook for UI components
 
@@ -20,4 +21,4 @@ Things might break. As the svelte community and Rich puts it; here be Dragons.
 
 - CMS would be required. 
 
-- database . if reqd, maybe use vercels?
+- database . if reqd., maybe use vercel?
