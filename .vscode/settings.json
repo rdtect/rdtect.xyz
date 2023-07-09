@@ -9,5 +9,9 @@
         "node_modules": true,
         ".svelte-kit": true
     },
-    "explorerExclude.backup": {}
+    "explorerExclude.backup": {},
+    "cSpell.words": [
+        "skeletonlabs",
+        "tailwindcss"
+    ]
 }

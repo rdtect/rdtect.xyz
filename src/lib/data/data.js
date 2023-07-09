@@ -1,4 +1,6 @@
 /**src/Data/data.js**/
+
+//ref https://dev.to/karkranikhil/build-responsive-website-using-svelte-in-30-minutes-l9
 const HEADER = "Nixalar";
 
 const NAVBAR_DATA = [
