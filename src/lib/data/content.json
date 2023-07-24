@@ -1,9 +1,56 @@
 {
     "website": "rdtect",
     "domain": "rdtect.xyz",
-    
     "home": {
         "messageHeader": "Designing Awesomeness!",
-        "messageContent": "Hi. I am Rick [rdtect] and I design and create physical environments, digital products and stunning 3D experiences for Architecture, Product Design[UI-UX] and MetaVERSEs!  "
+        "messageContent": "Hi. I am Rick [rdtect] and I design and create physical environments, digital products and stunning 3D experiences for Architecture, Product Design[UI-UX] and MetaVERSEs!"
+    },
+    "about": {
+        "pageTitle": "About Us",
+        "content": "At rdtect, we are a team of passionate designers and creators who are dedicated to crafting exceptional products and experiences. With a focus on innovation and user-centered design, we strive to deliver solutions that exceed expectations and leave a lasting impact."
+    },
+    "services": {
+        "pageTitle": "Our Services",
+        "servicesList": [
+            {
+                "title": "UI/UX Design",
+                "description": "We specialize in creating intuitive and visually appealing user interfaces (UI) and user experiences (UX) for digital products. Our designs are tailored to enhance usability and engage users."
+            },
+            {
+                "title": "Product Design",
+                "description": "From concept to realization, we offer end-to-end product design services. We collaborate closely with clients to develop innovative and functional products that meet their specific requirements."
+            },
+            {
+                "title": "Architectural Design",
+                "description": "With expertise in architectural design, we bring spaces to life. Whether it's residential, commercial, or public spaces, we create designs that harmonize aesthetics, functionality, and sustainability."
+            },
+            {
+                "title": "3D Experiences",
+                "description": "Step into the virtual world with our stunning 3D experiences. We utilize cutting-edge technology to create immersive virtual environments and simulations that transport users to new dimensions."
+            }
+        ]
+    },
+    "portfolio": {
+        "pageTitle": "Portfolio",
+        "projects": [
+            {
+                "title": "Project 1",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur sagittis varius. Fusce semper quam non odio rhoncus, ac condimentum nisl feugiat."
+            },
+            {
+                "title": "Project 2",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur sagittis varius. Fusce semper quam non odio rhoncus, ac condimentum nisl feugiat."
+            },
+            {
+                "title": "Project 3",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consectetur sagittis varius. Fusce semper quam non odio rhoncus, ac condimentum nisl feugiat."
+            }
+        ]
+    },
+    "contact": {
+        "pageTitle": "Contact Us",
+        "address": "123 Main Street, City, Country",
+        "phone": "+1 123-456-7890",
+        "email": "info@rdtect.xyz"
     }
 }

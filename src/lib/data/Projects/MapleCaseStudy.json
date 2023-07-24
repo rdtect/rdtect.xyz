@@ -1,0 +1,44 @@
+{
+    "sections": [
+        {
+            "title": "Introduction",
+            "content": "Maple, a fertilizer company, recognized the need to modernize their systems and leverage the digital space. They initially hired a software team to develop an internal web app focused on fertilizer storing, logistics, and production. However, as the project grew more complex, they approached me to design the product, develop a strategy for further development, and create low and high fidelity prototypes.",
+            "images": ["https://picsum.photos/200/300?random=1"]
+        },
+        {
+            "title": "Client Company Overview",
+            "content": "Maple Orgtech (India) Limited is a chemical manufacturing company with a strong belief in sustainability. They produce organic chemical products to support the Indian agricultural economy and engage in various CSR activities. Their fertilizers are distributed to farmers nationwide, with a focus on alleviating pain points for both farmers and the manufacturing and distribution units.",
+            "images": ["https://picsum.photos/200/300?random=2"]
+        },
+        {
+            "title": "Project Overview",
+            "content": "The digital product I worked on was a web-based admin dashboard, designed to be accessible across all devices, including mobile phones. As dashboards are better viewed on screens with wider aspect ratios, I strategized that a web app would be the ideal technology. The role-based dashboard app would assist users in manufacturing, logistics, distribution, storage, and ordering processes. Essentially, it aimed to serve as a cloud-based management web app.",
+            "images": ["https://picsum.photos/200/300?random=3"]
+        },
+        {
+            "title": "Problem Statement",
+            "content": "The challenge was to create a digital product that not only aided but enhanced the manufacturing, logistics, distribution, storage, and ordering pipeline through design thinking. The target users included administrators, production units, central warehouse managers, distributors, and end-users. The goals were to enable upper management to monitor and update processes, minimize waste by optimizing raw material management, streamline permissions and approvals, provide an easier order interface for distributors and end-users, and eliminate middlemen to curb corruption.",
+            "images": ["https://picsum.photos/200/300?random=4"]
+        },
+        {
+            "title": "Research and Analysis",
+            "content": "To gather insights, I conducted one-on-one interviews with various stakeholders, ranging from directors to other personnel within the company. These interviews focused on understanding pain points, particularly the prevalent mismanagement issues. Due to the confidential nature of the organic fertilizer composition, direct interviews with key stakeholders were not possible. Surveys and questionnaires were not used due to the limited dataset. Field studies were conducted, and the organizational diagram was scrutinized to identify user roles for the initial iteration of the app.",
+            "images": ["https://picsum.photos/200/300?random=5"]
+        },
+        {
+            "title": "Design and Development",
+            "content": "Based on the provided screens, which appeared outdated, I concluded that a dashboard-type system would be more suitable across devices. The dashboard would consist of a customized menu system tailored to the user's role, data analytics panels to inform the user about recent interactions, and detailed information with editing and ordering capabilities. To facilitate faster development, I recommended making the app modular and component-based, enhancing it to reflect the company's branding, and ensuring an intuitive user experience. I defined user roles and derived branding colors from Maple's existing static website and logo.",
+            "images": ["https://picsum.photos/200/300?random=6"]
+        },
+        {
+            "title": "Implementation and Results",
+            "content": "Previously, the manufacturing unit had little knowledge of demand and produced products either in shortage or based on assumptions from previous orders. To address this, I designed the app to be order-based, taking inspiration from food delivery/kitchen apps. This new approach was well-received. The order flow involved receiving orders, checking if products were available in-store, queuing for packaging or production based on availability, and managing logistics, distribution, and handling.",
+            "images": ["https://picsum.photos/200/300?random=7"]
+        },
+        {
+            "title": "Conclusion",
+            "content": "The key user personas considered were: 1) lower-level, on-ground clients (e.g., farmers) ordering based on fertilizer requirements, 2) logistics and warehouse managers, 3) packaging unit administrators, 4) production unit personnel, and 5) the director, who required both granular and overall insights. This case study is significant as it demonstrates how a deep understanding of a complex system, in this case an organic chemical manufacturing unit, can revolutionize the production line through small but impactful optimizations. The thoughtful design of the app has generated interest in forming a startup to offer the product to other traditional manufacturing companies.",
+            "images": ["https://picsum.photos/200/300?random=8"]
+        }
+    ]
+}
