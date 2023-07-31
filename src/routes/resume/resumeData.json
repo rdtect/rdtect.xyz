@@ -1,0 +1,180 @@
+{
+    "name": "Rick Dé",
+    "email": "rdtect@outlook.com",
+    "image": "https://via.placeholder.com/64x64",
+    "website": "https://www.rdtect.xyz/",
+    "linkedin": "linkedin.com/in/rdtect",
+    "phone": "+919830914213",
+    "profileSummary": [
+        "Architect turned Product Designer with 10+ years of experience in architecture and 5+ years in tech.",
+        "Expertise in user research, user experience (UX) design, and user interface (UI) design.",
+        "Experience in 3D art and animation, metaverse product design, architecture, and multifaceted design.",
+        "Adept at web development, including HTML, CSS, JavaScript, and SvelteKit.",
+        "Proficient in Blender, Figma, and Svelte.",
+        "A proven track record of designing successful products that meet the needs of users and businesses.",
+        "Adept at working cross-functionally with engineers, product managers, and stakeholders to bring products to market.",
+        "Passionate about creating products that make a positive impact on the world.",
+        "Adapted design thinking and visual design principles to create innovative and user-centered products.",
+        "Leverages technology to design new and innovative digital experiences."
+    ],
+    "significantProjects": [
+        {
+            "projectName": "Ilm, the web3 Movie",
+            "year": "2022",
+            "role": "Product Designer and WEB3 Architect",
+            "details": "Designed letscollect.io, a NFT crowdfunding platform for movies, which resulted in creating the World’s First NFT crowd-funded Bollywood Movie. Now streaming on Disney + Hotstar."
+        },
+        {
+            "projectName": "Fikka.io",
+            "year": "2022",
+            "role": "Product Designer and 3D NFT creator",
+            "details": "Product Design and Management of an NFT marketplace and WEB3 social media platform."
+        },
+        {
+            "projectName": "Maple Org Tech",
+            "year": "2022",
+            "role": "Product Designer (UI -UX)",
+            "details": "Solving supply chain and designing an app for an organic fertilizer manufacturing industry, improving manufacturer and consumer interaction systems."
+        },
+        {
+            "projectName": "RoledIn",
+            "year": "2021",
+            "role": "Product Designer (UI -UX) & FrontEnd Developer (Svelte)",
+            "details": "Designing an innovative LMS, ERP, and CRM for schools and educational institutes."
+        }
+    ],
+    "professionalExperience": [
+        {
+            "company": "QuantLabs",
+            "endDate": "Present",
+            "position": "Product Designer & Metaverse Architect",
+            "startDate": "April 2022",
+            "details": [
+                "Led product design for a company that provided web3 and metaverse services to other industries and B2B companies.",
+                "Designed and rendered 3D models of virtual spaces and objects that were visually stunning and engaging.",
+                "Designed user interfaces and digital products for diverse client web apps and platforms, resulting in a 10% increase in user engagement.",
+                "Designed and developed a virtual meta theater for GSP, offering realistic and engaging live performances.",
+                "Crafted a metaverse product for a cultural showcase for the first Durga Puja on the metaverse.",
+                "Designed Versez, a customizable metaverse platform for virtual worlds, for B2B clients as a PAAS product."
+            ]
+        }
+    ],
+    "otherExperience": [
+        {
+            "company": "Studio ArcX",
+            "endDate": "2021-08-08",
+            "position": "Principal Architect and Designer",
+            "startDate": "2014-08-08",
+            "details": [
+                "Designed and created Spatial Environments for multiple Architecture, Interior, and Landscape projects, with a focus on 3D Visualisation, Visual Design, Identity & Experience building, created the website for the firm, social media account, and established web presence."
+            ]
+        },
+        {
+            "company": "FOAD, DIT University",
+            "endDate": "2021-08-08",
+            "position": "Assistant Professor for Architecture & UI/UX Design",
+            "startDate": "2018-08-08",
+            "details": [
+                "Along with teaching architecture and UI/UX design, designed their annual magazine and led the website design team."
+            ]
+        },
+        {
+            "company": "FPA, Manav Rachna University",
+            "endDate": "2018-08-08",
+            "position": "Assistant Professor for Architecture & Design",
+            "startDate": "2016-08-08",
+            "details": [
+                "Along with teaching architecture and UI/UX design, designed their prospectus, part of the innovation department, designed events and spaces, 3D design."
+            ]
+        },
+        {
+            "company": "RMC Pvt. Ltd",
+            "endDate": "2016-08-08",
+            "position": "Architect, Designer for designing built environment for apartments, factories etc",
+            "startDate": "2013-08-08",
+            "details": [
+                "Architect, designing bungalows, apartments, factories, etc.",
+                "Graphic Design, Diagramming, & concept diagrams",
+                "presentation and branding design",
+                "data visualization."
+            ]
+        },
+        {
+            "company": "Ravindra Bhan & Associates",
+            "endDate": "2013-08-08",
+            "position": "Intern Architect",
+            "startDate": "2011-08-08",
+            "details": [
+                "Intern Architect and designer for the pioneer of landscape architecture in India. Along with designing architecture and landscape, created the first website of the firm, and established web presence."
+            ]
+        }
+    ],
+    "skills": [
+        "3D Modeling & Visualization",
+        "Metaverse Development & NFT Creation",
+        "UX/UI Design & Web Development",
+        "Digital Product Design & Launch",
+        "Design Thinking for Problem Solving & Strategy Design",
+        "Story Telling, Effective Visual Communication & Collaboration",
+        "Architectural Design & Planning",
+        "Wireframing and Prototyping",
+        "Web3, Smart Contracts, Metaverse Building & NFT Creation",
+        "User-Centric UI - UX Interaction Design",
+        "AI and Prompt Generation for Generative AI"
+    ],
+    "education": [
+        {
+            "institution": "School of Architecture and Landscape Design, Shri Mata Vaishno Devi University",
+            "degree": "Bachelor's of Architecture",
+            "date": "Year of Graduation"
+        },
+        {
+            "institution": "Karavan Academy",
+            "course": "Certified UI/UX Designer",
+            "date": "Year of Certification"
+        },
+        {
+            "institution": "Growth School",
+            "course": "NFT Course with Acclaimed Artist 'kkraghava'",
+            "date": "2021"
+        },
+        {
+            "institution": "MITID",
+            "course": "Pursuing PGPEx",
+            "date": "Year of Graduation (Expected)"
+        },
+        {
+            "institution": "Google UX Course",
+            "course": "User Experience (UX) Design Course",
+            "date": "Year of Completion (Expected)"
+        }
+    ],
+    "toolkit": [
+        {
+            "category": "3D Design",
+            "tools": [
+                "Blender",
+                "Spline"
+            ]
+        },
+        {
+            "category": "Graphic Design",
+            "tools": [
+                "Figma",
+                "Adobe Creative Suite",
+                "Affinity Suite"
+            ]
+        },
+        {
+            "category": "Web Development",
+            "tools": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Svelte",
+                "Tailwind",
+                "Other Frontend Development Tools"
+            ]
+        }
+    ]
+}
