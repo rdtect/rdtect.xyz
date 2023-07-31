@@ -1,0 +1,23 @@
+{
+    "home": {
+        "href": "#home",
+        "rel": "Home"
+    },
+    "about": {
+        "href": "#about",
+        "rel": "ABOUT"
+    },
+    "contact":{
+        "href": "#contact",
+        "rel": "CONTACT"
+    },
+    "blog":{
+        "href": "/blog",
+        "rel": "BLOG"
+    },
+    "projects": {
+        "href": "/projects",
+        "rel": "PROJECTS"
+    }
+
+}
