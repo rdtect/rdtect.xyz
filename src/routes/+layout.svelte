@@ -1,5 +1,5 @@
 <script>
-	import Nav from '$lib/Nav.svelte';
+	import Nav from '$lib/NavBar/Nav.svelte';
 	import '../app.postcss';
 
 	import { onMount } from 'svelte';
@@ -10,8 +10,18 @@
 		// 👆 false parameter is required for svelte
 	});
 </script>
-<body class ='font-mont '>
-	
+
 <Nav />
-<slot />
-</body>
+<main class="flex-col">
+	<body class="font-mont ">
+		<slot />
+	</body>
+	<footer class="h-8 text-xs mt-8">
+		<div class=" text-center text-neutral-700 dark:text-neutral-200">
+			© 2023 Copyright:
+			<a class="text-neutral-400 dark:text-neutral-400" href="https://rdtect.xyz/"
+				>Rick 'rdtect' De</a
+			>
+		</div>
+	</footer>
+</main>

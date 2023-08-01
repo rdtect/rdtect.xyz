@@ -5,7 +5,7 @@ const config = {
 	theme: {
 		extend: {
 			fontFamily: {
-				mont: "'Montserrat', sanserif "
+				mont: "'Montserrat', sanserif ",
 			}
 		}
 	},
