@@ -13,7 +13,7 @@
   </div>
 
   <nav>
-    <ul class="flex justify-evenly">
+    <ul class="flex justify-evenly text-2xl font-bold" style="text-transform:uppercase ">
       <!-- <li
         class=" px-4"
         aria-current={$page.url.pathname === "/" ? "page" : undefined}

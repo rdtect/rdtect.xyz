@@ -2,12 +2,12 @@
     "website": "rdtect",
     "domain": "rdtect.xyz",
     "home": {
-        "messageHeader": "Designing Awesomeness!",
-        "messageContent": "Hi. I am Rick [rdtect] and I design and create physical environments, digital products and stunning 3D experiences for Architecture, Product Design[UI-UX] and MetaVERSEs!"
+        "messageHeader": "HI!",
+        "messageContent": "I am Rick [rdtect] <br><br> I design and create digital products, UI-UX, 3D web experiences and Metaverses!"
     },
     "about": {
-        "pageTitle": "About Us",
-        "content": "At rdtect, we are a team of passionate designers and creators who are dedicated to crafting exceptional products and experiences. With a focus on innovation and user-centered design, we strive to deliver solutions that exceed expectations and leave a lasting impact."
+        "pageTitle": "About Me",
+        "content": "Rick [rdtect]: A visionary at the intersection of Physical and Digital realms. <br><br> Architect turned creator of stunning digital products and user experiences.<br><br> Pioneered the world's first crowdfunded NFT Bollywood movie. Metaverse Architect for Quantlabs. Coding wizard in Python and JavaScript. <br><br>Passionate about open-source tech. Constantly pushing the boundaries of creativity and technology. Thrives in the fusion of Physical and Digital worlds."
     },
     "services": {
         "pageTitle": "Our Services",
@@ -48,9 +48,9 @@
         ]
     },
     "contact": {
-        "pageTitle": "Contact Us",
-        "address": "123 Main Street, City, Country",
-        "phone": "+1 123-456-7890",
-        "email": "info@rdtect.xyz"
+        "pageTitle": "Contact",
+        "address": "Dehradun, India",
+        "phone": "+91 98309 14213",
+        "email": "rdtect@outlook.com"
     }
 }

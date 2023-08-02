@@ -2,7 +2,7 @@
   import content from "$lib/data/content.json";
 </script>
 
-<div class="p-6">
+<!-- <div class="p-6">
   <h2>{content.services.pageTitle}</h2>
   <div>
     {#each content.services.servicesList as service}
@@ -12,4 +12,4 @@
       </div>
     {/each}
   </div>
-</div>
+</div> -->

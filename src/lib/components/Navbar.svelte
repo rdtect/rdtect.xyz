@@ -6,7 +6,7 @@
 <!------------------------------------------->
 <!----------------MARKUP----------------------->
 <!------------------------------------------->
-<section id="nav-bar">
+<section id="nav-bar ">
   <nav class="navbar main-bgcolor navbar-expand-md navbar-dark">
     <a class="navbar-brand company_brand" href="/">
       {header}
@@ -22,11 +22,11 @@
     >
       <span class="navbar-toggler-icon" />
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse " id="navbarNav">
       <ul class="navbar-nav ml-auto">
         {#each navlists as list}
-          <li class="nav-item">
-            <a class="nav-link light-color" href={list.url}>{list.label}</a>
+          <li class="nav-item ">
+            <a class="nav-link  light-color" href={list.url}>{list.label}</a>
           </li>
         {/each}
       </ul>

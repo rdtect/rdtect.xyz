@@ -2,7 +2,7 @@
   import content from "$lib/data/content.json";
 </script>
 
-<div class="p-6">
+<!-- <div class="p-6">
   <h2>{content.portfolio.pageTitle}</h2>
   <div>
     {#each content.portfolio.projects as project}
@@ -13,4 +13,4 @@
     {/each}
   </div>
   <button class="btn-lg " >More</button>
-</div>
+</div> -->

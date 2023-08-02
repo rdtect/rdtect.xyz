@@ -26,8 +26,8 @@
                 {content.home.messageHeader}
               </h1>
 
-              <p class="text-sm mb-16 font-medium italic text-white">
-                {content.home.messageContent}
+              <p class="text-xl mb-16 font-medium text-white">
+                {@html content.home.messageContent}
               </p>
               <a
                 href="/resume"
