@@ -31,6 +31,6 @@
       <!-- Contact -->
       <Contact />
     </h1>
-    <Soon />
+    <!-- <Soon /> -->
   </section>
 </html>

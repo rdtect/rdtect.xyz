@@ -34,6 +34,11 @@
                 class="btn variant-outline-primary text-white"
                 data-sveltekit-preload-data="hover">Resumé</a
               >
+               <a
+                href="/"
+                class="btn variant-outline-primary text-white"
+                data-sveltekit-preload-data="hover">Portfolio</a
+              >
             </div>
           </div>
           <div class="md:mb-12 lg:mb-0">
