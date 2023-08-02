@@ -1,5 +1,5 @@
 <script>
-  import landing from "$lib/images/landing.webp";
+  import landing from "$lib/images/landing-no-bg.png";
   import content from "$lib/data/content.json";
 </script>
 
@@ -30,22 +30,23 @@
                 {content.home.messageContent}
               </p>
               <a
-                href="/"
+                href="/resume"
                 class="btn variant-outline-primary text-white"
                 data-sveltekit-preload-data="hover">Resumé</a
               >
                <a
-                href="/"
+                href="/projects"
                 class="btn variant-outline-primary text-white"
-                data-sveltekit-preload-data="hover">Portfolio</a
+                data-sveltekit-preload-data="hover">Projects</a
               >
             </div>
           </div>
           <div class="md:mb-12 lg:mb-0">
             <img
-              src="https://tecdn.b-cdn.net/img/new/ecommerce/vertical/004.jpg"
-              class="w-full rounded-lg shadow-lg dark:shadow-black/20"
+              src={landing}
+              class="min-h-[600px] min-w-[600px] rounded-lg dark:shadow-black/20"
               alt=""
+              
             />
           </div>
         </div>

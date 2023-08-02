@@ -4,7 +4,7 @@
   let currentVariant = "variant-ghost";
 </script>
 
-<section class="m-2 p-2 bg-gradient-to-br variant-gradient-secondary-tertiary">
+<section class="m-2 p-2 bg-gradient-to-br variant-gradient-priamry-tertiary">
   <div class="w-full text-token grid grid-cols-1 md:grid-cols-2 gap-4">
     <div class="card {currentVariant} p-4 flex justify-center items-center">
       <div id="image-container">

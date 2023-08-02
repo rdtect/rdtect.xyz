@@ -11,7 +11,7 @@
     <Header />
     <hr />
   </header>
-  <main class="min-h-fit">
+  <main class="h-[90%]">
     <slot />
   </main>
 </div>
