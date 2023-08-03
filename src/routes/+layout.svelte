@@ -4,14 +4,12 @@
   import "../app.postcss";
 </script>
 
-<div
-  class="container mx-auto flex-col justify-between variant-ghost-secondary min-h-screen"
->
+<div class="container mx-auto variant-ghost-secondary min-h-screen">
   <header class="p-10">
     <Header />
     <hr />
   </header>
-  <main class="h-[90%]">
+  <main class="flex justify-center w-full h-[90%]">
     <slot />
   </main>
 </div>

@@ -5,22 +5,18 @@
   import rdtectLogo from "$lib/images/rdtect.svg";
 </script>
 
-<header class="flex justify-between">
-  <div class="logo">
+<header class="flex flex-col sm:flex-row justify-between items-center">
+  <div class="logo mb-4 sm:mb-0">
     <a href="/">
       <img class="h-7" src={rdtectLogo} alt="" />
     </a>
   </div>
 
   <nav>
-    <ul class="flex justify-evenly text-2xl font-bold" style="text-transform:uppercase ">
-      <!-- <li
-        class=" px-4"
-        aria-current={$page.url.pathname === "/" ? "page" : undefined}
-      >
-        <a href="/">Home</a>
-      </li> -->
-
+    <ul
+      class="flex flex-col sm:flex-row justify-evenly text-2xl font-bold"
+      style="text-transform:uppercase "
+    >
       <li
         class=" px-4"
         aria-current={$page.url.pathname === "/about" ? "page" : undefined}
