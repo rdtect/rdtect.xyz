@@ -9,7 +9,7 @@
     <Header />
     <hr />
   </header>
-  <main class="flex justify-center w-full h-[90%]">
+  <main class="justify-center w-full h-[90%]">
     <slot />
   </main>
 </div>

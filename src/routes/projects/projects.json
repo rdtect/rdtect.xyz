@@ -1,0 +1,38 @@
+{
+    "projects": [
+        {
+            "title": "Fikka NFT Marketplace",
+            "description": "Directed product design for Fikka.io, a pioneering NFT marketplace and WEB3 social media platform, enhancing user interaction and experience in the digital assets space.",
+            "imageUrl": "fikka.svg",
+            "projectUrl": "https://fikka.io",
+            "tags": [
+                "Website",
+                "Design"
+            ],
+            "date": "current date"
+        },
+        {
+            "title": "Lets Collect",
+            "description": "As the product designer of the groundbreaking project 'Lets Collect,' I crafted a dark and futuristic website with a logo resembling a QR code and vibrant neon colors. The platform allows users to become producers of the first NFT funded film. The website features different pages, including Mint, Our Story, Team, and Connect.",
+            "imageUrl": "letsCollect.jpeg",
+            "projectUrl": "https://web.archive.org/web/20230129194717/https://letscollect.live/",
+            "tags": [
+                "Website",
+                "Design",
+                "WEB3"
+            ],
+            "date": "current date"
+        },
+        {
+            "title": "QuantLabs Website",
+            "description": "As the product designer and UI/UX expert, I proudly present Quantlabs – a futuristic website I crafted for a metaverse, NFT, and blockchain development company. With captivating visuals, user-friendly layout, and clear content, Quantlabs showcases the company's expertise, services, and insights. This cutting-edge platform reflects my passion for digital innovation and design.",
+            "imageUrl": "quantlabs.jpeg",
+            "projectUrl": "https://quantlabs.technology/",
+            "tags": [
+                "Website",
+                "Design"
+            ],
+            "date": "current date"
+        }
+    ]
+}
