@@ -20,7 +20,7 @@
 <h1>loading...</h1>
 
 {#key i}
-	<p in:typewriter={{ speed: 10 }}>
+	<p in:typewriter|global={{ speed: 10 }}>
 		{messages[i] || ''}
 	</p>
 {/key}

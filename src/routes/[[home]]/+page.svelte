@@ -1,7 +1,5 @@
 <script>
   import Landing from "./Landing.svelte";
-  import { Avatar } from "@skeletonlabs/skeleton";
-  import Soon from "./ComingSoon.svelte";
   import About from "./About.svelte";
   import Services from "./Services.svelte";
   import Portfolio from "./Portfolio.svelte";
@@ -10,27 +8,25 @@
 
 <svelte:head>
   <title>Home</title>
-  <meta name="description" content="rdTect personal webSite" />
+  <meta
+    name="description"
+    content="Welcome to rdTect's personal website. Explore my portfolio, learn more about my services, and get in touch."
+  />
 </svelte:head>
 
-<html lang="svelte">
-  <section>
-    <Landing />
-    <hr />
-    
-    <h1>
-      <!-- About -->
-      <About />
+<main>
+  <Landing />
+  <hr />
 
-      <!-- Services -->
-      <Services />
+  <!-- About -->
+  <About />
 
-      <!-- Portfolio -->
-      <Portfolio />
+  <!-- Services -->
+  <Services />
 
-      <!-- Contact -->
-      <Contact />
-    </h1>
-    <!-- <Soon /> -->
-  </section>
-</html>
+  <!-- Portfolio -->
+  <Portfolio />
+
+  <!-- Contact -->
+  <Contact />
+</main>
