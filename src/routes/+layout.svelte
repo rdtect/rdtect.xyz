@@ -7,7 +7,7 @@
   inject({ mode: dev ? "development" : "production" });
 </script>
 
-<main class="main-container flex flex-col min-h-screen">
+<main class="main-container flex flex-col min-h-screen variant-ghost-secondary">
   <header class="header">
     <Header />
     <hr />
@@ -25,7 +25,7 @@
 
 <style lang="postcss">
   .main-container {
-    @apply container mx-auto variant-ghost-secondary;
+    @apply container mx-auto ;
   }
 
   .header {

@@ -5,6 +5,7 @@
 </script>
 
 <center>
+  <!-- svelte-ignore a11y-missing-attribute -->
   <object
     class="bg-white p-1 h-screen"
     data={resumeLink}

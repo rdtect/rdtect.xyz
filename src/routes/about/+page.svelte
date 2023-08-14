@@ -57,7 +57,5 @@ In essence, my passion lies in harnessing my skills and knowledge to bridge the 
     @apply mx-auto max-w-xs filter invert;
   }
 
-  .btn {
-    @apply self-center rounded-lg variant-ghost-secondary bg-blue-500 text-white hover:bg-blue-700 mt-4 transition-all duration-300;
-  }
+  
 </style>
