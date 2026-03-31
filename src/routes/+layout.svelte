@@ -13,9 +13,9 @@
 
 <Nav />
 <main class="flex-col">
-	<body class="font-mont ">
+	<div class="font-mont">
 		<slot />
-	</body>
+	</div>
 	<footer class="h-8 text-xs mt-8">
 		<div class=" text-center text-neutral-700 dark:text-neutral-200">
 			© 2023 Copyright:
