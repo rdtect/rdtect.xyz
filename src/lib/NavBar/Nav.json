@@ -4,7 +4,7 @@
         "rel": "Home"
     },
     "about": {
-        "href": "#about",
+        "href": "/about",
         "rel": "ABOUT"
     },
     "contact":{

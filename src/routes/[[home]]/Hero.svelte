@@ -26,7 +26,7 @@
 		</div>
 	</div>
 	<div class="flex z-10 right-1 ml-96 mt-">
-		<img class="w-auto h-[500px] rounded-r-3xl inline-flex" src={profilePic} />
+		<img class="w-auto h-[500px] rounded-r-3xl inline-flex" src={profilePic} alt="Rick De - rdtect profile photo" />
 
 		<div
 			class="origin-top-left rotate-90 text-center text-neutral-500 text-opacity-25 text-8xl font-normal"

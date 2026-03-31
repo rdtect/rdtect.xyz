@@ -1,6 +1,5 @@
 <script>
-  import profilePic from "$lib/images/profilePic2.jpg";
-  import sign from "$lib/images/sign.png";
+  import profilePic from "$lib/Images/profilePic2.jpg";
 
   const paragraphs = `With a genuine passion for blending the realms of Physical and Digital, my work is a reflection of this fascination.<br/><br/>
 As a practicing Architect, I employed my aesthetic prowess to design visually appealing parametric forms and spaces. Today, my work has evolved to encompass the world of digital creations such as digital illustrations, immersive publications, responsive websites, and intricate 3D models.<br/><br/>
@@ -20,7 +19,6 @@ In essence, my passion lies in harnessing my skills and knowledge to bridge the 
     <img class="image" src={profilePic} alt="" />
     <div class="text">
       <p>{@html paragraphs}</p>
-      <img class="sign" src={sign} alt="" />
       <a href="/resume" class="btn" data-sveltekit-preload-data="hover"
         >Resumé</a
       >
@@ -51,10 +49,6 @@ In essence, my passion lies in harnessing my skills and knowledge to bridge the 
 
   .text p {
     @apply text-gray-800 dark:text-gray-200;
-  }
-
-  .sign {
-    @apply mx-auto max-w-xs filter invert;
   }
 
   

@@ -14,7 +14,7 @@
   import projects from "./projects.json";
   let currentVariant = "variant-ghost";
 
-  let projectList:Array<T> = [];
+  let projectList: Array<{title: string; description: string; imageUrl: string; projectUrl: string; tags: string[]; date: string}> = [];
 
   onMount(() => {
     projectList = projects.projects;

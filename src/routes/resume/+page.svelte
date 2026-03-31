@@ -1,7 +1,6 @@
 <script>
-  import { onMount } from "svelte";
-  import resume from "$lib/data/Resume_Rick De_Product Designer.pdf";
-  let resumeLink = resume + "#zoom=95";
+  const resume = "/Resume_Rick De_Product Designer.pdf";
+  const resumeLink = resume + "#zoom=95";
 </script>
 
 <center>

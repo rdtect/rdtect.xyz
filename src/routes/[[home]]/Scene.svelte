@@ -1,7 +1,1 @@
-<script>
-  import { T } from '@threlte/core'
-</script>
-<T.Mesh>
-  <T.BoxGeometry />
-  <T.MeshBasicMaterial />
-</T.Mesh>
+<!-- 3D Scene placeholder (threlte dependencies not yet installed) -->
